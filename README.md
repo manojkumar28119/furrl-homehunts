@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Furrl HomeHunts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Furrl HomeHunts is a mobile-first React application designed to showcase products. The application fetches product data from a custom server deployed on Vercel, as the provided APIs from Furrl's production network are inaccessible due to authorization restrictions. This app includes features like a responsive navbar with wishlist and cart links, a product list with infinite scrolling, and individual product details pages with a share button.
 
-In the project directory, you can run:
+## Setup
 
-### `npm start`
+To run this application locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/manojkumar28119/furrl-homehunts.git 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    cd furrl-homehunts
 
-### `npm run build`
+3.Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4.Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Certainly! Here's a README.md file tailored to your specifications:
 
-## Learn More
+markdown
+Copy code
+# Furrl HomeHunts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Furrl HomeHunts is a mobile-first React application designed to showcase products. The application fetches product data from a custom server deployed on Vercel, as the provided APIs from Furrl's production network are inaccessible due to authorization restrictions. This app includes features like a responsive navbar with wishlist and cart links, a product list with infinite scrolling, and individual product details pages with a share button.
 
-### Code Splitting
+## Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run this application locally, follow these steps:
 
-### Analyzing the Bundle Size
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/yourusername/furrl-homehunts.git
+Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+Copy code
+cd furrl-homehunts
+Install dependencies:
 
-### Making a Progressive Web App
+bash
+Copy code
+npm install
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy code
+npm start
 
-### Advanced Configuration
+View the app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open your browser and visit http://localhost:3000 to view the app.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Features
+Navbar: A mobile-responsive navigation bar located at the top of the page. It includes links to the wishlist and cart pages.
 
-### `npm run build` fails to minify
+Product List: Displays a list of products fetched from a custom server deployed on Vercel. The list supports infinite scrolling to load more products as the user scrolls down.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Product Details: Clicking on a product in the list navigates the user to a detailed view of that product. This view includes additional information about the product and a share button for easy sharing.
+
+
+Data Source
+This application fetches product data from a custom server deployed on Vercel. The base URL for the server is https://furrl-json.vercel.app/.
+
+
+Deployment
+GitHub Repository: https://github.com/manojkumar28119/furrl-homehunts.git
+Hosted App: 
