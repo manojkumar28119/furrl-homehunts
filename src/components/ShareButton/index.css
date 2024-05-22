@@ -1,0 +1,22 @@
+.shareBtn{
+    background-color: #344C64  ;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+.share-icon{
+    color: #fff;
+    background-color: transparent;
+}
+.product-share-button{
+    margin: 10px 5px;
+    height: 35px;
+    width: 35px;
+}

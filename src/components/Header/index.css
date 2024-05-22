@@ -1,0 +1,15 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 16px;
+}
+.furrlVibe{
+    background-color: transparent;
+    width: 3.6875rem;
+    height: 1.375rem;
+}
+.WishListIcon{
+    margin-right: 10px;
+ }
