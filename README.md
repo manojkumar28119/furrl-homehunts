@@ -81,4 +81,12 @@ This application fetches product data from a custom server deployed on Vercel. T
 
 Deployment
 GitHub Repository: https://github.com/manojkumar28119/furrl-homehunts.git
-Hosted App: 
+Hosted App: https://furrl-vibelist.netlify.app/
+
+
+Technologies Used:
+    React
+    CSS Modules / Styled Components
+    Fetch API for data fetching
+    Create React App for project setup
+
