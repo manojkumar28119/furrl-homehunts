@@ -1,51 +1,39 @@
-# Furrl HomeHunts
+Furrl HomeHunts Mobile Website
+Welcome to the Furrl HomeHunts mobile website project! This project aims to recreate the mobile version of Furrl's HomeHunts page, providing users with a seamless browsing experience on their mobile devices.
 
-## Overview
+Table of Contents
+Introduction
+Features
+Technical Details
+Installation
+Usage
+Contributing
+Hosted Link
+Introduction
+Furrl is an e-commerce platform specializing in lifestyle and fashion products. The HomeHunts page showcases a curated selection of products tailored to the user's preferences.
 
-Furrl HomeHunts is a mobile-first React application designed to showcase products. The application fetches product data from a custom server deployed on Vercel, as the provided APIs from Furrl's production network are inaccessible due to authorization restrictions. This app includes features like a responsive navbar with wishlist and cart links, a product list with infinite scrolling, and individual product details pages with a share button.
+This project replicates the key features of the HomeHunts page, including:
 
-## Setup
+Displaying a list of products with infinite scroll.
+Navigation bar with wishlist and cart functionality.
+Product details page with share options.
+Features
+Product List: Browse through a variety of lifestyle and fashion products with the ability to load more items as you scroll.
+Navigation Bar: Access the wishlist and cart directly from the navigation bar for easy shopping.
+Product Details: View detailed information about each product and share your favorites with friends.
+Technical Details
+Frontend Framework: Built using ReactJS for a dynamic and interactive user interface.
+Styling: Utilizes responsive CSS for optimal viewing on mobile devices.
+API Integration: Fetches product data from Furrl's production API, ensuring up-to-date information.
+State Management: Manages state using React's built-in hooks to handle data fetching and component updates.
+Installation
+To install and run the project locally, follow these steps:
 
-To run this application locally, follow these steps:
+Clone the repository:
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/manojkumar28119/furrl-homehunts.git 
-
-
-2. Navigate to the project directory:
-
-    cd furrl-homehunts
-
-3.Install dependencies:
-
-    npm install
-
-4.Start the development server:
-
-    npm start
-
-
-
-
-
-Certainly! Here's a README.md file tailored to your specifications:
-
-markdown
+bash
 Copy code
-# Furrl HomeHunts
-
-## Overview
-
-Furrl HomeHunts is a mobile-first React application designed to showcase products. The application fetches product data from a custom server deployed on Vercel, as the provided APIs from Furrl's production network are inaccessible due to authorization restrictions. This app includes features like a responsive navbar with wishlist and cart links, a product list with infinite scrolling, and individual product details pages with a share button.
-
-## Setup
-
-To run this application locally, follow these steps:
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/yourusername/furrl-homehunts.git
+git clone <repository-url>
 Navigate to the project directory:
 
 bash
@@ -56,29 +44,21 @@ Install dependencies:
 bash
 Copy code
 npm install
-Start the development server:
+Usage
+To start the development server and view the project in your browser, use the following command:
 
 bash
 Copy code
 npm start
+This will launch the application in your default web browser, allowing you to interact with the Furrl HomeHunts mobile website.
 
-View the app:
+Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these guidelines:
 
-Open your browser and visit http://localhost:3000 to view the app.
-
-
-Features
-Navbar: A mobile-responsive navigation bar located at the top of the page. It includes links to the wishlist and cart pages.
-
-Product List: Displays a list of products fetched from a custom server deployed on Vercel. The list supports infinite scrolling to load more products as the user scrolls down.
-
-Product Details: Clicking on a product in the list navigates the user to a detailed view of that product. This view includes additional information about the product and a share button for easy sharing.
-
-
-Data Source
-This application fetches product data from a custom server deployed on Vercel. The base URL for the server is https://furrl-json.vercel.app/.
-
-
-Deployment
-GitHub Repository: https://github.com/manojkumar28119/furrl-homehunts.git
-Hosted App: https://furrl-vibelist.netlify.app/
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them with descriptive messages.
+Push your changes to your fork.
+Submit a pull request to the main repository.
+Hosted Link
+The project is hosted at example.com.
