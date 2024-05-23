@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ShareButton from "../ShareButton"
 import { ColorRing } from 'react-loader-spinner';
 import ProductItem from "../ProductItem";
 import "./index.css";
@@ -120,8 +121,19 @@ const ProductList = () => {
         </div>
     );
 
+    const renderTopSection = () => (
+        <div className="vibe-page-top-bg-img">
+            <div className="top-sec-content">
+                <p className="top-text">#HomeHunts</p>
+                <ShareButton title={"Furrl has a #Vibe for just about any occasion, trend or need! Check out this cool #Vibe, #HomeHunts on Furrl."}
+                url={'https://web.furrl.in/vibeList?vibe=HomeHunts '}/>
+            </div>
+        </div>
+    )
+
     return (
         <div>
+            {renderTopSection()}
             <div className="shop-products-card">
                 <p className="shop-products-heading">Shop Products</p>
                 <div className="bullet-point"></div>
