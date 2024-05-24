@@ -42,7 +42,11 @@ To install and run the project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
+<<<<<<< HEAD
     git clone <repository-url>
+=======
+    git clone https://github.com/manojkumar28119/furrl-homehunts.git
+>>>>>>> a8f80af211c62d27e259d9a268aeee5dc35b752c
     ```
 
 2. Navigate to the project directory:
@@ -63,3 +67,12 @@ To start the development server and view the project in your browser, use the fo
 
 ```bash
 npm start
+<<<<<<< HEAD
+=======
+```
+
+## Hosted Link
+The project is hosted at #https://furrl-vibelist.netlify.app/
+
+
+>>>>>>> a8f80af211c62d27e259d9a268aeee5dc35b752c
